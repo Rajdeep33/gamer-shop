@@ -235,3 +235,40 @@ header {
 .card-img{
     width: 60px;
 }
+
+.footer{
+    background-color: #0B0223;
+    color: white;
+}
+
+.footer-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 125px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-footer{
+    display: flex;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.term{
+    display: flex;
+    color: #7d7492;
+    font-weight: 500;
+    font-size: 20px;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.social{
+    display: flex;
+    gap: 40px;
+    padding: 30px 0;
+}
