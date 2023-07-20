@@ -47,10 +47,26 @@ header {
     height: 70vh;
     background-repeat: no-repeat;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-text {
+    display: flex;
     justify-content: center;
     align-items: start;
     padding-left: 240px;
     flex-direction: column;
+    height: 100%;
+}
+
+.banner-photo {
+    padding-right: 240px;
+}
+
+.banner-photo > img {
+    width: 550px;
+    padding-top: 20px;
 }
 
 .banner-head {
@@ -77,6 +93,7 @@ header {
 .banner-btn {
     color: white;
     font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
     padding: 20px 40px;
     border-radius: 48px;
@@ -91,7 +108,7 @@ header {
     background-color: skyblue;
 }
 
-.btn-group-banner{
+.btn-group-banner {
     display: flex;
     gap: 24px;
     margin-top: 40px;
