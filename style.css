@@ -1,0 +1,98 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    height: 50px;
+}
+
+.header {
+    box-shadow: 0 0 15px #00000038;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-text {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.pink-text {
+    color: rgb(255, 86, 114);
+}
+
+.nav-text {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.banner-img {
+    background-image: url("Group\ 14.png");
+    width: auto;
+    background-position: left;
+    background-size: contain;
+    height: 70vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left: 240px;
+    flex-direction: column;
+}
+
+.banner-head {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.goat {
+    font-size: 90px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-feature {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 25px;
+}
+
+.banner-btn {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 20px 40px;
+    border-radius: 48px;
+    user-select: none;
+}
+
+.pink-btn {
+    background-color: #F948B2;
+}
+
+.blue-btn {
+    background-color: skyblue;
+}
+
+.btn-group-banner{
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
